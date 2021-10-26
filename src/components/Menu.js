@@ -11,11 +11,10 @@ const Menu = () => {
             </div>
 
             <div className = 'display-flex menu gap-1' style = {{ color: 'white', padding: '10px' }}>
-                <label>About</label>
-                <label>Project</label>
-                <label>Skill</label>
-                <label>Contact</label>
-                <label>Current Working on..</label>
+                <label onClick = { console.log('') } style = {{ cursor: 'pointer' }} >About</label>
+                <label onClick = { console.log('') } style = {{ cursor: 'pointer' }} >Project</label>
+                <label onClick = { console.log('') } style = {{ cursor: 'pointer' }} >Skill</label>
+                <label onClick = { console.log('') } style = {{ cursor: 'pointer' }} >Contact</label>
             </div>
         </div>
     )
